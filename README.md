@@ -6,5 +6,5 @@ Administrator can manage items though admin part : Add, change or delete.
 
 Live version :
 
-<a href="http://declics.eu/clem/">Front end draft version </a></br>
+<a href="http://declics.eu/clem/">Front end draft version </a><br/>
 <a href="http://declics.eu/clem/admin/admin.php">Back end</a>
