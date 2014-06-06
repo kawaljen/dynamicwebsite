@@ -1,7 +1,7 @@
 <h2>Dynamic website </h2>
 A website with a simple CMS in PHP
 
-Administrator can manage items though admin part : Add, change or delete.
+Administrator can manage articles though admin part : Add, change or delete.
 
 
 Live version :
