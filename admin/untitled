@@ -1,0 +1,5 @@
+AuthUserFile /home/xndclicsp/www/clem/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Accès Restreint-- ton id est clem et le mot de passe ma region preferee en france sans accent sans majuscule"
+AuthType Basic
+require valid-user

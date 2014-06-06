@@ -1,0 +1,177 @@
+/* 
+ * Milano Magento Theme
+ *
+ * Copyright (c) ShopShark LLC 2013
+ *
+ * The work presented in this file is copyrighted and is licensed to the original purchaser of the theme. The terms of the license are published on www.shopshark.net.
+ *
+ * www.shopshark.net
+ * <info@shopshark.net>
+ */
+
+/* Reset ================================================================================= */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* Font Declaration ====================================================================== */
+@font-face {
+    font-family: 'NovecentowideNormalRegular';
+    src: url('../fonts/Novecentowide-Normal-webfont.eot');
+    src: url('../fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentowide-Normal-webfont.woff') format('woff'),
+         url('../fonts/Novecentowide-Normal-webfont.ttf') format('truetype'),
+         url('../fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NovecentowideBookRegular';
+    src: url('fonts/Novecentowide-Book-webfont.eot');
+    src: url('fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Novecentowide-Book-webfont.woff') format('woff'),
+         url('fonts/Novecentowide-Book-webfont.ttf') format('truetype'),
+         url('fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NovecentowideUltraLightBold';
+    src: url('fonts/Novecentowide-Medium-webfont.eot');
+    src: url('fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Novecentowide-Medium-webfont.woff') format('woff'),
+         url('fonts/Novecentowide-Medium-webfont.ttf') format('truetype'),
+         url('fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NovecentowideLightBold';
+    src: url('fonts/Novecentowide-DemiBold-webfont.eot');
+    src: url('fonts/Novecentowide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Novecentowide-DemiBold-webfont.woff') format('woff'),
+         url('fonts/Novecentowide-DemiBold-webfont.ttf') format('truetype'),
+         url('fonts/Novecentowide-DemiBold-webfont.svg#NovecentowideLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TeXGyreAdventorRegular';
+    src: url('fonts/texgyreadventor-regular-webfont.eot');
+    src: url('fonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('fonts/texgyreadventor-regular-webfont.svg#webfont2wn1PO08') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ShopSharkSymbols';
+    src: url('fonts/shopsharkfont-webfont.eot');
+    src: url('fonts/shopsharkfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/shopsharkfont-webfont.woff') format('woff'),
+         url('fonts/shopsharkfont-webfont.ttf') format('truetype'),
+         url('fonts/shopsharkfont-webfont.svg#shopsharkfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* General Styles ========================================================================= */
+
+body          { font:12px/1.55 'TeXGyreAdventorRegular'; color:#818181; text-align:center; background: #fff; }
+img           { border:0; vertical-align:top; }
+a             { color:#353535; text-decoration:none; }
+a:hover       { text-decoration:underline; }
+:focus        { outline:0; }
+
+/* Fonts */
+.footer-color .follow_us,
+.block .block-title strong span,
+.product-tabs li,
+.footer-color .phone span,
+.product-view .product-shop .short-description p:first-child,
+.add-to-cart label { font-family: 'TeXGyreAdventorRegular'; }
+.newproduct_grid,
+.saleproduct { font-family: 'TeXGyreAdventorRegular'; }
+.price { font-family: 'TeXGyreAdventorRegular';}
+
+/* Headings */
+h1          { font-size:3em; color:#111; font-family: 'NovecentowideBookRegular'; font-weight:normal; line-height:1.15; font-weight: normal; }
+h2          { font-size:2.0em; color:#111; font-family: 'NovecentowideBookRegular'; line-height: 1.25; margin-bottom:.45em; font-weight: normal; }
+h3          { font-size:1.7em; color:#111; font-family: 'NovecentowideBookRegular'; line-height:1.25; margin-bottom:.45em; font-weight: normal; }
+h4          { font-size:1.4em; color:#111; font-family: 'NovecentowideBookRegular'; line-height:1.35; margin-bottom:.45em; font-weight: normal; }
+h5          { font-size:1.15em; color:#000; font-family: 'NovecentowideBookRegular'; line-height:1.35; margin-bottom:.45em; font-weight: normal; }
+h6          { font-size:1.05em; color:#111; font-family: 'NovecentowideBookRegular'; line-height:1.35; margin-bottom:1em; font-weight: normal; }
+
+/* Forms */
+form          { display:inline; }
+fieldset      { border:0; }
+legend        { display:none; }
+
+/* Table */
+table         { border:0; border-spacing:0; empty-cells:show; font-size:100%; }
+caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
+
+/* Content */
+p             { margin:0 0 1em; }
+strong        { /* font-weight:bold; */ }
+address       { font-style:normal; }
+cite          { font-style:normal; }
+q,
+blockquote    { quotes:none; }
+q:before,
+q:after       { content:''; }
+small         { font-size:1em; }
+big           { font-size:1.15em; }
+
+::-moz-selection {background-color: #f01c35; color: #fff;}
+::selection {background-color: #f01c35; color: #fff;}
+
+/* Lists */
+ul,ol         { list-style:none; }
+#product_tabs_description_contents ul,#product_tabs_description_contents ol {list-style: disc; margin-left:20px;}
+
+/* Tools */
+.hidden       { display:block !important; border:0 !important; margin:0 !important; padding:0 !important; font-size:0 !important; line-height:0 !important; width:0 !important; height:0 !important; overflow:hidden !important; }
+.nobr         { white-space:nowrap !important; }
+.wrap         { white-space:normal !important; }
+.a-left       { text-align:left !important; }
+.a-center     { text-align:center !important; }
+.a-right      { text-align:right !important; }
+.v-top        { vertical-align:top; }
+.v-middle     { vertical-align:middle; }
+.f-left,
+.left         { float:left !important; }
+.f-right,
+.right        { float:right !important; }
+.f-none       { float:none !important; }
+.f-fix        { float:left; width:100%; }
+.no-display   { display:none; }
+.no-margin    { margin:0 !important; }
+.no-padding   { padding:0 !important; }
+.no-bg        { background:none !important; }
+.clear        { clear: both!important; }
+
+
+/* Particulier ========================================================================= */
+body, html, #container {width:100%;}
+/* column1 */
+#colunm1 {width:350px; float:left; display:block; height:100%; margin:20px;}
+nav {border:1px solid #000; width:350px; height:150px; padding:5px; position:fixed; bottom:50px;}
+
+#title {border:1px solid #000; width:350px;  padding:5px; position:fixed; bottom:550px;}
+#title h1 {font-size : 1.8em;}
+#section {border:1px solid #000; width:350px;  padding:5px; position:fixed; bottom:250px;}
+
+/* column2 
+#colunm2 { float:left; display:block; height:100%; max-width:800px; margin:10px;}*/
+
+/* page = general */
+section {border:1px solid #000; height:500px; padding:5px; overflow:auto; margin:10px 20px;}
+.imgboard { border:1px solid #000; padding:5px; margin:5px; float:left;}
+#general #fleche {position:relative;  width:45px; height:45px; font-size:2em; display:block; cursor:pointer;}
+/* page = single */
+#single .main img {width:100%;}
+section#thumbmenu {border:1px solid #000;  width:50%; height:50px; position:fixed; bottom:10px; left:500px; padding:5px;}
+.thumbmenu {float:left; margin:5px;}
+
