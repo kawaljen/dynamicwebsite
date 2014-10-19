@@ -2,7 +2,7 @@
 
 		
 //HTML head
-	$titrepage="Clementine Hauguenois";
+	$titrepage="C H";
 	include('includes/head.php');
 
 ?>
@@ -10,7 +10,7 @@
 <div id="container">
 	<div id="colunm1">
 		<div id="title">
-			<h1>Clementine Hauguenois</h1>
+			<h1>C. H.</h1>
 		</div>
 			
 		<div id="section">
